@@ -62,6 +62,12 @@
           <h3>Variáveis</h3>
           <ul>
             <li><a href="exercicio.php?dir=variaveis&file=basico">Variáveis</a></li>
+
+            <li><a href="exercicio.php?dir=variaveis&file=desafio_equacao">Desafio Equação</a></li>
+
+            <li><a href="exercicio.php?dir=variaveis&file=atribuicoes">Atribuições</a></li>
+
+            <li><a href="exercicio.php?dir=variaveis&file=interpolacao">Interpolação</a></li>
           </ul>
         </div>
       </nav>
