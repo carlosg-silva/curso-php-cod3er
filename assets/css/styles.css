@@ -173,3 +173,12 @@ body {
 .modulo.roxo-escuro > h3 {
   background-color: #4a148c;
 }
+
+p.divisao {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 0px;
+}
