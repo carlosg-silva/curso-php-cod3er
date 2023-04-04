@@ -19,25 +19,29 @@ form>* {
 
 <?php
 
-$value = $_POST['param'] ?? 0;
-$convert = $_POST['conversao'];
+const FATOR_KM_MILHA = 0.621371;
+const FATOR_METRO_KM = 1000;
 
-switch ($convert) {
+$param = $_POST['param'] ?? 0;
+switch ($_POST['conversao'] ?? 0) {
   case 'km-milha':
-    $distancia = $value * 0.62 . " mi.";
-    $mensagem = "$value Km = $distancia Milhas";
+    $distancia = $param * FATOR_KM_MILHA;
+    $mensagem = "$param Km = $distancia Milhas";
     break;
+
   case 'milha-km':
-    echo $value * 1.60 . " Km.";
+    $distancia = $param / FATOR_KM_MILHA;
+    $mensagem = "$param Milhas =  $distancia Km";
     break;
   case 'metro-km':
-    echo $value * 0.001  . " Km.";
+    $distancia = $param / FATOR_METRO_KM;
+    $mensagem = "$param Metros = $distancia Km";
     break;
   case 'km-metro':
-    echo $value / 0.001 . " m.";
+    $distancia = $param * FATOR_METRO_KM;
+    $mensagem = "$param Km = $distancia Metros";
     break;
+  default:
+    $mensagem = "Nenhum valor calculado!";
 }
-
-if ($convert && $value == false) {
-  echo "Insira um número";
-}
+echo "<p>$mensagem</p>";
