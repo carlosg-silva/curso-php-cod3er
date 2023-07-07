@@ -45,6 +45,10 @@
 
             <li><a href="exercicio.php?dir=funcoes&file=desafio_recursao">Desafio Recursão</a></li>
 
+            <li><a href="exercicio.php?dir=funcoes&file=retornando_funcao">Retornando Função</a></li>
+
+            <li><a href="exercicio.php?dir=funcoes&file=map_filter">Map & Filter</a></li>
+
           </ul>
         </div>
 
