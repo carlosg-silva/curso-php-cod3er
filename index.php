@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
-  <title>Curso PHP COD3ER</title>
+  <title>Curso PHP COD3R</title>
 </head>
 
 <body>
@@ -20,6 +20,20 @@
   <main class="principal">
     <div class="conteudo">
       <nav class="modulos">
+
+        <div class="modulo azul-escuro">
+          <h3>8. Paradigma O.O</h3>
+          <ul>
+
+            <li><a href="exercicio.php?dir=classes_objetos&file=classe">Primeira Classe</a></li>
+
+            <li><a href="exercicio.php?dir=classes_objetos&file=desafio_data">Desafio Data</a></li>
+
+            <li><a href="exercicio.php?dir=classes_objetos&file=construtor_destrutor">Construtor e Destrutor</a></li>
+
+          </ul>
+
+        </div>
 
         <div class="modulo vermelho-escuro">
           <h3>7. Funções</h3>

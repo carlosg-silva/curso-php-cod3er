@@ -23,3 +23,12 @@ foreach ($notas as $nota) {
 }
 echo '<br>';
 print_r($apenasOsAprovados1);
+
+
+function aprovados($nota)
+{
+  return $nota >= 7;
+}
+
+echo '<br>';
+// $apenasOsAprovados2 = array_filter($notas, aprovados);
