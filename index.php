@@ -31,6 +31,8 @@
 
             <li><a href="exercicio.php?dir=classes_objetos&file=construtor_destrutor">Construtor e Destrutor</a></li>
 
+            <li><a href="exercicio.php?dir=classes_objetos&file=heranca">Herança</a></li>
+
           </ul>
 
         </div>
