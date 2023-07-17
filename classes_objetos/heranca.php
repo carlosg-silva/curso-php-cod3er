@@ -38,7 +38,8 @@ class Usuario extends Pessoa
 
   function __destruct()
   {
-    echo 'Usuario diz: Tchau!!!';
+    echo 'Usuario diz: Tchau!!!<br>';
+    parent::__destruct();
   }
 
   public function apresentar()
@@ -50,3 +51,4 @@ class Usuario extends Pessoa
 
 $usuario = new Usuario('Gustavo Mendonça', 21, 'gust_mend');
 $usuario->apresentar();
+unset($usuario);
