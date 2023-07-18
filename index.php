@@ -35,6 +35,8 @@
 
             <li><a href="exercicio.php?dir=classes_objetos&file=visibilidade">Visibilidade</a></li>
 
+            <li><a href="exercicio.php?dir=classes_objetos&file=static">Membro Estático</a></li>
+
           </ul>
 
         </div>
