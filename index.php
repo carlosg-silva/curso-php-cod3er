@@ -49,6 +49,10 @@
 
             <li><a href="exercicio.php?dir=classes_objetos&file=traits_02">Traits #02</a></li>
 
+            <li><a href="exercicio.php?dir=classes_objetos&file=metodos_magicos">Métodos Mágicos</a></li>
+
+            <li><a href="exercicio.php?dir=classes_objetos&file=polimorfismo">Polimorfismo</a></li>
+
           </ul>
 
         </div>
